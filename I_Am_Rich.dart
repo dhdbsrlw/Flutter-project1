@@ -6,26 +6,6 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.white,
         appBar: AppBar(
-          title: Text('I Am YJ'),
-          backgroundColor: Colors.deepOrange,
-        ),
-        body: Center(
-          child: Image(
-            image: AssetImage('images/diamond.png'),
-          ),
-        ),
-      ),
-    ),
-  );
-}
-
-/*
-void main() {
-  runApp(
-    MaterialApp(
-      home: Scaffold(
-        backgroundColor: Colors.white,
-        appBar: AppBar(
           title: Text('I Am Rich'),
           backgroundColor: Colors.purple[900],
         ),
@@ -38,4 +18,3 @@ void main() {
       ),
   );
 }
-*/
